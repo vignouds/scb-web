@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <title>SGP</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>SGP - Saisie des coordonnées bancaires</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table table-striped">
+            <thead>
+              <th>Matricule</th>
+              <th>Nom</th>
+              <th>Prénom</th>
+            </thead>
+            <tbody id="collabs">
+              <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col">
+          <form action="index.html" method="post">
+            <div class="form-group row">
+              <label for="banque" class="col-2 col-form-label">Banque</label>
+              <input type="text" id="banque" class="col-8 offset-2 form-control" />
+            </div>
+            <div class="form-group row">
+              <label for="bic" class="col-2 col-form-label">BIC</label>
+              <input type="text" id="bic" class="col-8 offset-2 form-control" />
+            </div>
+            <div class="form-group row">
+              <label for="iban" class="col-2 col-form-label">IBAN</label>
+              <input type="text" id="iban" class="col-8 offset-2 form-control" />
+            </div>
+            <div class="row">
+              <div class="ml-auto">
+              <input type="submit" value="Sauvegarder" class="btn btn-sm btn-success" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./app.js">
+
+    </script>
+  </body>
+</html>
